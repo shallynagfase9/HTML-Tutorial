@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h3> Registration form </h3>
+        <form action="/action.php">
+            <input type="text" placeholder="Username">
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <h5>Select your class</h5>            
+            <label for="1001">
+                <input type="radio" value="Class X" name="class" id="1001"> Class X
+            </label>
+            <br>
+            <label for="1002">
+                <input type="radio" value="Class XII" name="class" id="1002"> Class XII
+            </label>
+            <br>
+
+            <h5>Select Favourite Subject</h5>
+            <label for="Maths">
+                <input type="checkbox" value="Maths" name="subject" id="1002"> Maths
+            </label>
+            <br>
+            <label for="Physics">
+                <input type="checkbox" value="Physics" name="subject" id="1002"> Physics
+            </label>
+            <br>
+            <label for="Chemistry">
+                <input type="checkbox" value="Chemistry" name="subject" id="1002"> Chemistry
+            </label>
+            <br>
+            <label for="OS">
+                <input type="checkbox" value="OS" name="class" id="subject"> OS
+            </label>
+            <br>
+            <h5>Select your city</h5> 
+            <select name="Delhi">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Bangalore">Bangalore</option>
+            </select>
+            <br><br>
+            <input type="Submit" value="Submit">
+            <br><br>
+            <textarea name="feedback" id="1001" placeholder="please give your feedback here" rows=5 >Feedback</textarea>
+
+        </form>
+    </main>
+</body>
+</html>
